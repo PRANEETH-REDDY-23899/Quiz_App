@@ -2,22 +2,32 @@ const data = [
  
 
   {
-    question: "The production of items in a company is minimum and this stage is known as ?",
+    question: "What does EDA stands for?",
     incorrectAnswers: [
-      "Recovery",
-      "Prosperity",
-      "Recession",
+      "Extensive Data Analysis",
+      "Exploratory Data Analytics",
+      "Examplary Data  Analysis",
     ],
-    correctAnswer: "Depression",
+    correctAnswer: "Exploratory Data Analysis",
   },
   {
-    question: " An increase in prices over a festival is an example of ?",
-    incorrectAnswers: ["Secular trend", "Cyclic trend", "Irregular trend"],
-    correctAnswer: "Seasonal trend",
+    question: " What is technique used for Feature Selection.?",
+    incorrectAnswers: ["Dimensionality reduction analysis", "Exploration", "None of the options"],
+    correctAnswer: "Principal component analysis",
   },
 
   {
-    question: "In time series the mostly widely used mathematical technique to calculate the trend is ?",
+    question: "What is the name of the functions in Support Vector Mahcine (SVM) which takes a low dimentional input space and transform to a higher dimensional space.?",
+    incorrectAnswers: [
+      "Hyperplane",
+      "Support Vector",
+      "Vector",
+    ],
+    correctAnswer: "Kernels",
+  },
+
+  {
+    question: "In time series the mostly widely used mathematical technique to calculate the trend is  ?",
     incorrectAnswers: [
       "Semi average",
       "Moving average",
@@ -25,6 +35,10 @@ const data = [
     ],
     correctAnswer: "Least squares",
   },
+
+  
+
+
 
   {
     question: "In Time series the seasonal variations are ?",
